@@ -19,7 +19,7 @@
             <!-- /.header-wrap__top-left -->
             <div class="header-wrap__top-right">
                <button class="header-wrap__top-right--serach">
-                  <img src="./img/icon--serach.png" alt="icon--serach">
+                  <img src="./img/icons--search.svg" alt="icon--serach">
                </button>
                <a href="#" class="header-wrap__top-right--link">
                   <img src="./img/icons--vk.svg" alt="icons--vk">
@@ -62,12 +62,13 @@
                      </div>
                   </div>
                </div>
-               <a class="header-wrap__bottom-nav--link" href="#">афиша</a>
-               <a class="header-wrap__bottom-nav--link" href="#">Маршруты</a>
+               <a class="header-wrap__bottom-nav--link" href="#afisha">афиша</a>
+               <a class="header-wrap__bottom-nav--link" href="#directions">Маршруты</a>
+               <a class="header-wrap__bottom-nav--link" href="#">Новости</a>
+               <a class="header-wrap__bottom-nav--link" href="#">Про Ульяновск</a>
                <a class="header-wrap__bottom-nav--link" href="#">Кафе и рестораны</a>
                <a class="header-wrap__bottom-nav--link" href="#">Гостиницы</a>
-               <a class="header-wrap__bottom-nav--link" href="#">Про Ульяновск</a>
-               <a class="header-wrap__bottom-nav--link" href="#">Новости</a>
+               
             </nav>
          </div>
          <!-- /.header-wrap__bottom -->
@@ -84,7 +85,7 @@
 
 
    <main>
-      <section class="guide">
+      <section class="guide" id="guide">
          <div class="main-title">
             <img src="./img/main-title.png" alt="main-title">
             <h2>Путеводитель</h2>
@@ -205,7 +206,7 @@
       <!-- guide -->
 
 
-      <section class="afisha">
+      <section class="afisha" id="afisha">
          <div class="main-title">
             <img src="./img/main-title.png" alt="main-title">
             <h2>Афиша мероприятий</h2>
@@ -265,7 +266,7 @@
       <!-- afisha -->
 
 
-      <section class="directions">
+      <section class="directions" id="directions">
          <div class="main-title">
             <img src="./img/main-title.png" alt="main-title">
             <h2>Популярные туристические направления</h2>
@@ -391,10 +392,10 @@
          <!-- footer-top__logo -->
 
          <nav class="footer-top__nav">
-            <a href="#" class="footer-top__nav-link">Путеводитель</a>
+            <a href="#guide" class="footer-top__nav-link">Путеводитель</a>
+            <a href="#afisha" class="footer-top__nav-link">Афиша</a>
+            <a href="#directions" class="footer-top__nav-link">Маршруты </a>
             <a href="#" class="footer-top__nav-link">Новости</a>
-            <a href="#" class="footer-top__nav-link">Афиша</a>
-            <a href="#" class="footer-top__nav-link">Маршруты </a>
             <a href="#" class="footer-top__nav-link">Про Ульяновск</a>
             <a href="#" class="footer-top__nav-link">Кафе и рестораны</a>
             <a href="#" class="footer-top__nav-link">Гостиницы</a>
@@ -452,7 +453,7 @@
       <div class="footer-bottom">
          <p class="footer-bottom__left">Официальный туристический портал<br>
             Ульяновской области в сфере туризма  и массового отдыха</p>
-         <p class="footer-bottom__right">Сайт создан компанией “AGATECH”</p>
+         <a href="https://agatech.ru/" target="_blank" class="footer-bottom__right">Сайт создан компанией “AGATECH”</a>
       </div>
       <!-- /.footer-bottom -->
    </footer>
