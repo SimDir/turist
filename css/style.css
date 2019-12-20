@@ -72,6 +72,7 @@ header {
    border: none;
    background-color: transparent;
    padding: 5px;
+   cursor: pointer;
 }
 .header-wrap__top-right--serach img {
    width: 20px;
@@ -757,7 +758,6 @@ footer {
 .footer-top__link-icons {
    padding: 5px;
    text-decoration: none;
-   background-color: #fff;
 }
 .footer-top__link-icons img{
    width: 35px;
